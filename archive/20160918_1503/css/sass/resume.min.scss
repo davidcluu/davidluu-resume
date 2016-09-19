@@ -41,6 +41,19 @@ body {
   font-weight: 700;
 }
 
+ul {
+  list-style: none;
+  margin-left: 0.5em;
+  padding-left: 1em;
+
+  li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+
 .icon-heroku {
   padding-left: 6px;
 }

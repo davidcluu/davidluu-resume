@@ -10,4 +10,4 @@ mkdir(base_dir)
 
 copy('DavidLuuResume.html', base_dir + '/DavidLuuResume.html')
 copytree('css', base_dir + '/css')
-copytree('fonts', base_dir + '/fonts')
+# copytree('fonts', base_dir + '/fonts')
