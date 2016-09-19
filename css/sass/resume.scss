@@ -96,6 +96,14 @@ body > div:not(:last-child) {
     width: 50%;
 
     display: inline-block;
+
+    &.smaller {
+      width: 25%
+    }
+
+    &.larger {
+      width: 75%;
+    }
   }
 
   .third {
