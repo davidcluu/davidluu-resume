@@ -1,36 +1,31 @@
 /* Fonts*/
 
-@import 'https://fonts.googleapis.com/css?family=Raleway:400,400i,600';
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,600';
 
-@mixin raleway_medium {
-  font-family: 'Raleway', 'raleway_medium', sans-serif;
+@mixin lato_medium {
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 
-@mixin raleway_medium_italic {
-  @include raleway_medium;
+@mixin lato_medium_italic {
+  @include lato_medium;
   text-transform: italic;
 }
 
-@mixin raleway_bold {
-  font-family: 'Raleway', 'raleway_bold', sans-serif;
+@mixin lato_bold {
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
-}
-
-@mixin lato_medium {
-  font-family: 'Lato', 'lato_medium', sans-serif;
-  font-weight: 400;
 }
 
 
 /* Helpers */
 
 b {
-  @include raleway_bold;
+  @include lato_bold;
 }
 
 i {
-  @include raleway_medium_italic;
+  @include lato_medium_italic;
 }
 
 .text-left {
@@ -48,7 +43,7 @@ head, body {
   margin: 0;
   padding: 0;
 
-  @include raleway_medium;
+  @include lato_medium;
 }
 
 body {
@@ -60,18 +55,18 @@ body > div:not(:last-child) {
 }
 
 #header {
-  @include raleway_medium;
+  @include lato_medium;
 
   text-align: center;
 
   .name {
-    @include raleway_bold;
+    @include lato_bold;
     text-transform: uppercase;
     font-size: 2em;
   }
 
   b {
-    @include raleway_bold;
+    @include lato_bold;
     text-transform: uppercase;
   }
 }
@@ -87,7 +82,7 @@ body > div:not(:last-child) {
     border-bottom: 2px solid #000;
     margin-bottom: 2px;
 
-    @include raleway_bold;
+    @include lato_bold;
     text-transform: uppercase;
     font-size: 1.25em;
   }
