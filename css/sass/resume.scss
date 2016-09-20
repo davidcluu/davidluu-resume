@@ -39,11 +39,6 @@ i {
 
 /* Styles */
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
 head, body {
   margin: 0;
   padding: 0;
@@ -133,5 +128,15 @@ body > div:not(:last-child) {
 #experience, #projects {
   ul:not(:last-child) {
     margin-bottom: 0.5em;
+  }
+}
+
+
+/* Print */
+
+@media print {
+  a {
+    text-decoration: none;
+    color: #000;
   }
 }
